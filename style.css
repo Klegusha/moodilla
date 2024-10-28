@@ -1,0 +1,72 @@
+html{
+    background-color: #B1EDE8;
+}
+
+header{
+    background-color: #96E8BC;
+    height: 169px;
+    width: 100%;
+    text-align: center;
+}
+.side_menu, .calendar{
+    height: 369px;
+    float: left;
+}
+.side_menu{
+    width: 25%;
+    background-color: #C9FFE2;
+    text-align: center;
+}
+.calendar{
+    width: 75%;
+    text-align: center;
+    background-color: #C9FFE2;
+}
+table{
+    text-align: center;
+}
+
+.moods, .buttons{
+    height: 206px;
+    background-color: white;
+    text-align: center;
+}
+.moods{
+ float: left;
+ width: 80%;
+}
+.buttons{
+    float: left;
+    width: 20%;
+}
+
+.moods span{
+    margin-top: 67px;
+    font-size: 75px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#id1{
+    color: #7DD181;
+}
+#id2{
+    color: #96E8BC;
+}
+#id3{
+    color: #CBECD0;
+}
+#id4{
+    color: #FDE74C;
+    opacity: 50%;
+}
+#id5{
+    color: #FDDF0E;
+    opacity: 50%;
+}
+#id6{
+    color: #E3655B;
+    opacity: 90%;
+}
+#id7{
+    color: #DB5461;
+}
