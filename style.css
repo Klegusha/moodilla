@@ -1,12 +1,33 @@
 html{
     background-color: #B1EDE8;
+    font-family: Montserrat;
 }
 
+.header_box{
+    position: relative;
+    height: 169px;
+    text-align: center;
+}
 header{
     background-color: #96E8BC;
-    height: 169px;
+    height: 100%;
     width: 100%;
     text-align: center;
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+    position: absolute;
+    top: 0;
+    left:0;
+}
+.header_text{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.header_text h1{
+    margin-block-start: -0.67em;
+    margin-block-end: -0.67em;
 }
 .side_menu, .calendar{
     height: 369px;
@@ -20,10 +41,14 @@ header{
 .calendar{
     width: 75%;
     text-align: center;
-    background-color: #C9FFE2;
+    background-color: #B1EDE8;
 }
 table{
     text-align: center;
+    margin: auto;
+}
+td{
+    margin: 108px;
 }
 
 .moods, .buttons{
