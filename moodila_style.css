@@ -1,0 +1,124 @@
+html{
+    font-family: Montserrat;
+    background-color: #B1EDE8;
+}
+
+.header{
+    position: relative;
+    height: 169px;
+    display: grid;
+    width: 100%;
+}
+.header h1{
+    position: relative;
+    z-index: 2;
+    margin: auto;
+}
+header{
+    background-color: #96E8BC;
+    width: 100%;
+    height: 100%;
+    filter: blur(25px);
+    -webkit-filter: blur(25px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.side_menu{
+    position: relative;
+    width: 25%;
+    height: 369px;
+    text-align: center;
+    display: grid;
+    float: left;
+}
+.side_menu_elements{
+    padding-top: 25%;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    font-size: larger;
+}
+
+.side_menu_bg{
+    background-color: #C9FFE2;
+    height: 100%;
+    width: 100%;
+    filter: blur(25px);
+    -webkit-filter: blur(25px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.calendar{
+    float: left;
+    width: 75%;
+    height: 369px;
+    text-align: center;
+}
+
+.calendar table{
+    margin: auto;
+}
+.calendar td{
+    padding: 15px;
+    background-color: rgba(0, 0, 255, 50%);
+    border-radius: 10px;
+}
+
+.track{
+    width: 100%;
+    height:206px ;
+    position: relative;
+    /* display: grid; */
+    margin-top: 359px;
+}
+
+.moods{
+    text-align: center;
+    float: left;
+    width: 75%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+.submit{
+    text-align: center;
+    float: left;
+    width: 25%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.track_bg{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    filter: blur(25px);
+    -webkit-filter: blur(25px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.moods span{
+    margin-top: 6%;
+    font-size: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.submit button{
+    margin-top: 17% ;
+    background:
+    linear-gradient(315deg, rgba(227,101,91, 0), rgba(227,101,91, 0.9)) padding-box,
+    linear-gradient(315deg, rgba(227,101,91, 0), rgba(227,101,91, 0.9)) border-box;
+    padding: 10px;
+    border: 5px solid transparent;
+    border-radius: 10px;
+}

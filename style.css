@@ -32,10 +32,7 @@ header{
     position: relative;
     z-index: 2;
 }
-.header_txt h1{
-    margin-block-start: -0.67em;
-    margin-block-end: -0.67em;
-}
+
 .side_menu, .calendar{
     height: 369px;
     float: left;
