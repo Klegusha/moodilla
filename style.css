@@ -20,6 +20,7 @@ header{
     position: absolute;
     top: 0;
     left:0;
+    z-index: 1;
 }
 .header_txt{
     text-align: center;
@@ -28,6 +29,8 @@ header{
     margin: auto;
     display: table-cell;
     vertical-align: middle;
+    position: absolute;
+    z-index: 2;
 }
 .header_txt h1{
     margin-block-start: -0.67em;
