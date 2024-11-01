@@ -29,7 +29,7 @@ header{
     margin: auto;
     display: table-cell;
     vertical-align: middle;
-    position: absolute;
+    position: relative;
     z-index: 2;
 }
 .header_txt h1{
